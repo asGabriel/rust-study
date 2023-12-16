@@ -1,8 +1,12 @@
+pub mod myvec;
+
 fn main() {
     trying_array();
     println!("Is weekday? {}", check_week_day(Weekday::Friday));
     vectors();
     account_test();
+
+    myvec::create_vec();
 }
 
 fn trying_array() {
